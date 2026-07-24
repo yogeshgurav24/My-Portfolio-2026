@@ -1,0 +1,74 @@
+.project-container {
+  display: flex; /* use flex instead of grid */
+  justify-content: center; /* center all cards */
+  flex-wrap: wrap; /* wrap on small screens */
+  gap: 30px;
+  padding: 40px 20px; /* reduce side padding for small screens */
+}
+
+.project-card {
+  width: 280px; /* fixed width to match Skills card */
+  padding: 35px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  text-align: center;
+  cursor: pointer;
+}
+
+.project-card h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #58c4ff;
+}
+
+.project-card p {
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px #58c4ff;
+}
+
+/* Responsive Media Queries */
+@media screen and (max-width: 768px) {
+  .project-container {
+    gap: 20px;
+    padding: 30px 10px;
+  }
+
+  .project-card {
+    width: 220px;
+  }
+
+  .project-card h3 {
+    font-size: 20px;
+  }
+
+  .project-card p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .project-container {
+    gap: 15px;
+    padding: 20px 10px;
+  }
+
+  .project-card {
+    width: 90%; /* take most of the mobile screen */
+  }
+
+  .project-card h3 {
+    font-size: 18px;
+  }
+
+  .project-card p {
+    font-size: 11px;
+  }
+}

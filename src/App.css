@@ -1,0 +1,49 @@
+/* Smooth Gradient Background */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #0a0f2b, #0f193a, #1d2749);
+  color: white;
+  overflow-x: hidden;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #47b6ff;
+  border-radius: 20px;
+}
+
+/* Glow Hover */
+.glow-hover:hover {
+  box-shadow: 0 0 20px #4fa3ff;
+  transition: 0.3s ease-in-out;
+}
+
+/* Section Titles */
+.section-title {
+  text-align: center;
+  font-size: 38px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #48c6ef, #6f86d6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: fadeIn 1s ease-in;
+}
+
+.section-line {
+  width: 120px;
+  height: 5px;
+  background: linear-gradient(90deg, #48c6ef, #6f86d6);
+  border-radius: 50px;
+  margin: 10px auto;
+}
+
+/* Fade In Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(15px); }
+  to { opacity: 1; transform: translateY(0); }
+}
