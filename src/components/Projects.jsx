@@ -22,6 +22,12 @@ function Projects() {
           <p style={{fontSize:"13px"}}>Kotlin, XML, Firebase Realtime Database.</p>
         </div>
 
+      
+        <div className="project-card glow-hover">
+          <h3>Elite Salon</h3>
+          <p style={{fontSize:"13px"}}>MERN Stack</p>
+        </div>
+
         <div className="project-card glow-hover">
           <h3>Event Management System</h3>
           <p style={{fontSize:"13px"}}>HTML, CSS, Javascript, PHP, MySql.</p>
