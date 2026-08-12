@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import profilePic from "../assets/originalIMG.jpg"; 
+// import profilePic from "../assets/originalIMG.jpg"; 
 
 const About = () => {
   return (
@@ -8,7 +8,7 @@ const About = () => {
       <div className="about-container">
 
         <div className="about-image">
-          <img src={profilePic} alt="Profile" />
+          <img src="/assets/originalIMG.jpg" alt="Profile" />
         </div>
 
         <div className="about-content">
@@ -16,7 +16,7 @@ const About = () => {
 
           <p>
             I'm <strong>Yogesh Gurav</strong>, an MCA student with a growing interest in Android app development.
-             I enjoy working with Kotlin, Java, and UI design to create simple and functional mobile applications.
+             I enjoy working with Kotlin and UI design to create simple and functional mobile applications.
               With every project, I focus on improving my skills, exploring new tools, and understanding real development practices.
                My goal is to become a skilled Android developer and build meaningful, user-friendly apps in the future.
           </p>

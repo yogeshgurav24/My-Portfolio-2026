@@ -1,6 +1,6 @@
 import React from "react";
 import "./Intro.css";
-import myPhoto from "../assets/utuPic.png"; 
+// import myPhoto from "../assets/utuPic.png"; 
 
 
 function Intro() {
@@ -13,7 +13,7 @@ function Intro() {
       </div>
 
       <div className="hero-image">
-       <img src={myPhoto} alt="Profile" className="profile-img" />
+       <img src="/assets/utuPic.png" alt="Profile" className="profile-img" />
       </div>
     </section>
   );

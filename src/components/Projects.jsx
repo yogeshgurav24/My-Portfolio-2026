@@ -45,18 +45,18 @@ useEffect(() => {
         "AI Smart Note is a modern Android note-taking application designed to help users create, manage and organize notes. It includes AI-powered features for generating titles, summarizing content, rewriting text and improving notes.",
       screenshots: [
         "/assets/projects/ai-smart-note/AppLogo.png",
-        "/assets/projects/ai-smart-note/splash.jpg",
-        "/assets/projects/ai-smart-note/img1.png",
-        "/assets/projects/ai-smart-note/img2.png",
-        "/assets/projects/ai-smart-note/img3.png",
-        "/assets/projects/ai-smart-note/img4.png",
-        "/assets/projects/ai-smart-note/img5.png",
-        "/assets/projects/ai-smart-note/img6.png",
-        "/assets/projects/ai-smart-note/img7.png",
-        "/assets/projects/ai-smart-note/img8.png",
-        "/assets/projects/ai-smart-note/img9.png",
-        "/assets/projects/ai-smart-note/img10.png",
-        "/assets/projects/ai-smart-note/img12.png"
+        "/assets/projects/ai-smart-note/splash.png",
+        "/assets/projects/ai-smart-note/image1.png",
+        "/assets/projects/ai-smart-note/image2.png",
+        "/assets/projects/ai-smart-note/image3.png",
+        "/assets/projects/ai-smart-note/image4.png",
+        "/assets/projects/ai-smart-note/image5.png",
+        "/assets/projects/ai-smart-note/image6.png",
+        "/assets/projects/ai-smart-note/image7.png",
+        "/assets/projects/ai-smart-note/image8.png",
+        "/assets/projects/ai-smart-note/image9.png",
+        "/assets/projects/ai-smart-note/image10.png",
+        "/assets/projects/ai-smart-note/image11.png"
       ]
     },
 
@@ -68,23 +68,24 @@ useEffect(() => {
         "Garland Shop is an Android application designed to manage customers, garland orders, daily entries and billing information. Firebase Realtime Database is used for storing and managing application data.",
       screenshots: [
         "/assets/projects/garland-shop/app_logo.png",
-        "/assets/projects/garland-shop/splash.png",
-        "/assets/projects/garland-shop/img1.png",
-        "/assets/projects/garland-shop/img2.png",
-        "/assets/projects/garland-shop/img3.png",
-        "/assets/projects/garland-shop/img4.png",
-        "/assets/projects/garland-shop/img5.png",
-        "/assets/projects/garland-shop/img6.png",
-        "/assets/projects/garland-shop/img7.png",
-        "/assets/projects/garland-shop/img8.png",
-        "/assets/projects/garland-shop/img9.png",
-        "/assets/projects/garland-shop/img10.png",
-        "/assets/projects/garland-shop/img12.png",
-        "/assets/projects/garland-shop/img13.png",
-        "/assets/projects/garland-shop/img14.png",
-        "/assets/projects/garland-shop/img15.png",
-        "/assets/projects/garland-shop/img16.png",
-        "/assets/projects/garland-shop/img17.png",
+        // "/assets/projects/garland-shop/splash.png",
+        "/assets/projects/garland-shop/NewSplash.png",
+        "/assets/projects/garland-shop/image1.png",
+        "/assets/projects/garland-shop/image2.png",
+        "/assets/projects/garland-shop/image3.png",
+        "/assets/projects/garland-shop/image4.png",
+        "/assets/projects/garland-shop/image5.png",
+        "/assets/projects/garland-shop/image6.png",
+        "/assets/projects/garland-shop/image7.png",
+        "/assets/projects/garland-shop/image8.png",
+        "/assets/projects/garland-shop/image9.png",
+        "/assets/projects/garland-shop/image10.png",
+        "/assets/projects/garland-shop/image11.png",
+        "/assets/projects/garland-shop/image12.png",
+        "/assets/projects/garland-shop/image13.png",
+        "/assets/projects/garland-shop/image14.png",
+        "/assets/projects/garland-shop/image15.png",
+        "/assets/projects/garland-shop/image16.png",
 
       ]
     },
@@ -96,8 +97,18 @@ useEffect(() => {
       description:
         "Elite Salon is a web-based salon management project designed to provide a modern interface for salon services and customer management.",
       screenshots: [
-        "/assets/projects/elite-salon/1.png",
-        "/assets/projects/elite-salon/2.png"
+        "/assets/projects/elite-salon/img1.png",
+        "/assets/projects/elite-salon/img2.png",
+        "/assets/projects/elite-salon/img3.png",
+        "/assets/projects/elite-salon/img4.png",
+        "/assets/projects/elite-salon/img5.png",
+        "/assets/projects/elite-salon/img6.png",
+        "/assets/projects/elite-salon/img7.png",
+        "/assets/projects/elite-salon/img8.png",
+        "/assets/projects/elite-salon/img9.png",
+        "/assets/projects/elite-salon/img10.png",
+        "/assets/projects/elite-salon/img11.png",
+
       ]
     },
 
@@ -120,8 +131,13 @@ useEffect(() => {
       description:
         "This portfolio website showcases my education, technical skills, projects and contact information. It is developed using React and custom CSS animations.",
       screenshots: [
-        "/assets/projects/portfolio/1.png",
-        "/assets/projects/portfolio/2.png"
+        "/assets/projects/portfolio/img1.png",
+        "/assets/projects/portfolio/img2.png",
+        "/assets/projects/portfolio/img3.png",
+        "/assets/projects/portfolio/img4.png",
+        "/assets/projects/portfolio/img5.png",
+        "/assets/projects/portfolio/img6.png",
+        "/assets/projects/portfolio/img7.png",
       ]
     },
 
