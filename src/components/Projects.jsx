@@ -29,7 +29,7 @@ useEffect(() => {
       return previous + 1;
     });
 
-  }, 5000);
+  }, 3000);
 
   return () => clearInterval(interval);
 
@@ -42,7 +42,7 @@ useEffect(() => {
       technologies:
         "Kotlin, XML, Gemini API, SQLite, Firebase Authentication, Firebase Firestore",
       description:
-        "AI Smart Note is a modern Android note-taking application designed to help users create, manage and organize notes. It includes AI-powered features for generating titles, summarizing content, rewriting text and improving notes.",
+        "Developed an Android note application using Kotlin with features to create, edit, delete, search, pin, and archive notes. Implemented SQLite for local note storage and Firebase Authentication for user login and registration.Integrated Gemini API using Retrofit to provide features such as title generation, note summarization, rewriting, grammar correction, and translation. Added speech-to-text functionality, allowing users to create notes by speaking instead of typing, making the application easier and more convenient for users who are not comfortable with typing. Added note colour customization to help users visually organize and identify their notes. Implemented user-specific note management so each registered user can access and manage their own notes.Designed the application with simple and easy-to-use features to make note-taking accessible to users with different levels of technical knowledge.",
       screenshots: [
         "/assets/projects/ai-smart-note/AppLogo.png",
         "/assets/projects/ai-smart-note/splash.png",
@@ -65,7 +65,7 @@ useEffect(() => {
       technologies:
         "Kotlin, XML, Firebase Realtime Database",
       description:
-        "Garland Shop is an Android application designed to manage customers, garland orders, daily entries and billing information. Firebase Realtime Database is used for storing and managing application data.",
+        "Implemented customer management features including customer registration, profile management, contact actions, and account status tracking. Added daily delivery tracking with On Day / Off Day and Provided / Not Provided status management. Developed automated billing calculations based on monthly targets, daily delivery quantities, collected amounts, and pending balances. Implemented payment tracking with support for pending payments and carry-forward balances across multiple billing periods. Integrated automated email notifications to inform customers when their monthly bill is generated. Added customer communication features such as direct calling from the customer list. Designed Firebase Realtime Database structure for multi-shop and customer-specific data management.",
       screenshots: [
         "/assets/projects/garland-shop/app_logo.png",
         // "/assets/projects/garland-shop/splash.png",
@@ -91,11 +91,11 @@ useEffect(() => {
     },
 
     {
-      title: "Elite Salon",
+      title: "Elite Saloon",
       technologies:
         "MERN Stack",
       description:
-        "Elite Salon is a web-based salon management project designed to provide a modern interface for salon services and customer management.",
+        "Built a full-stack web application enabling online appointment booking, service management, and admin dashboard. Integrated a payment gateway (Test Mode) enabling secure online transactions for salon services. Developed RESTful APIs with proper HTTP methods, improving system maintainability. Implemented a multi-salon and multi-owner architecture, allowing customers to select specific salons, services, staff, and appointment slots. Designed and integrated MongoDB database models for customers, salon owners, staff, services, appointments, and payment information. Implemented dynamic appointment scheduling and slot availability with conflict checking to prevent double bookings. Developed separate customer, owner, and admin functionalities for efficient management of appointments and salon services. Integrated Razorpay APIs for order creation, payment verification, and retrieving transaction details.Implemented appointment status management including Pending, Confirmed, Cancelled, and Completed states.",
       screenshots: [
         "/assets/projects/elite-salon/img1.png",
         "/assets/projects/elite-salon/img2.png",
@@ -117,10 +117,33 @@ useEffect(() => {
       technologies:
         "HTML, CSS, JavaScript, PHP, MySQL",
       description:
-        "Event Management System is a web application designed to manage events and related information. PHP and MySQL are used for backend processing and database management.",
+        "The Event Management System is a web-based application developed using PHP, MySQL, HTML, CSS, and JavaScript to simplify the process of creating, managing, and organizing events. The system allows administrators to add, update, delete, and view event details such as event name, date, time, location, description, and organizer information. MySQL is used as the backend database and can be managed through phpMyAdmin for storing and retrieving event-related data. The project uses PHP to handle server-side operations and database connectivity, while HTML and CSS provide a responsive and user-friendly interface. The system can be further enhanced with features such as user registration and login, event registration, attendee management, booking, payment processing, notifications, and an admin dashboard.",
       screenshots: [
-        "/assets/projects/event-management/1.png",
-        "/assets/projects/event-management/2.png"
+        // "/assets/projects/event-management/1.png",
+        // "/assets/projects/event-management/2.png",
+
+         "/assets/projects/event-management/image1.png",
+        "/assets/projects/event-management/image2.png",
+        "/assets/projects/event-management/image3.png",
+        "/assets/projects/event-management/image4.png",
+        "/assets/projects/event-management/image5.png",
+        "/assets/projects/event-management/image6.png",
+        "/assets/projects/event-management/image7.png",
+        "/assets/projects/event-management/image8.png",
+        "/assets/projects/event-management/image9.png",
+        "/assets/projects/event-management/image10.png",
+        "/assets/projects/event-management/image11.png",
+        "/assets/projects/event-management/image12.png",
+        "/assets/projects/event-management/image13.png",
+        "/assets/projects/event-management/image14.png",
+        "/assets/projects/event-management/image15.png",
+        "/assets/projects/event-management/image16.png",
+        "/assets/projects/event-management/image17.png",
+        "/assets/projects/event-management/image18.png",
+        "/assets/projects/event-management/image19.png",
+        "/assets/projects/event-management/image20.png",
+
+
       ]
     },
 
@@ -146,10 +169,13 @@ useEffect(() => {
       technologies:
         "Kotlin, XML, Firebase Realtime Database",
       description:
-        "Search Car is an Android application designed to help users explore and search for available cars. Firebase Realtime Database is used to manage the application data.",
+        "Search Car is an Android application designed to help users explore and search for available cars. Firebase Realtime Database is used to manage the application data. This project is created for learning a Firebase realtime database. In this project I perform simple crud operations to understand Firebase realtime database.",
       screenshots: [
-        "/assets/projects/search-car/1.png",
-        "/assets/projects/search-car/2.png"
+        "/assets/projects/search-car/img1.png",
+        "/assets/projects/search-car/img2.png",
+        "/assets/projects/search-car/img3.png",
+        "/assets/projects/search-car/img4.png",
+        "/assets/projects/search-car/img5.png",
       ]
     }
   ];
